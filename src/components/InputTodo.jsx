@@ -22,12 +22,13 @@ export default function InputTodo() {
         <form action="">
           <div className="flex justify-between">
             <input
+              className="px-4"
               type="text"
               placeholder="Masukkan todo"
               value={input}
               onChange={(e) => setInput(e.target.value)}
             />
-            <button onClick={handleClick}>add</button>
+            <button onClick={handleClick}>Add</button>
           </div>
         </form>
       </div>

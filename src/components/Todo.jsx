@@ -36,10 +36,10 @@ export default function Todo() {
             <span>{todo.value}</span>
             <div className="flex justify-between">
               <button className="mr-3 px-5" onClick={() => handleEdit(todo.id)}>
-                edit
+                Edit
               </button>
-              <button className="px-7" onClick={() => handleDelete(todo.id)}>
-                x
+              <button className="px-5" onClick={() => handleDelete(todo.id)}>
+                Delete
               </button>
             </div>
           </div>
